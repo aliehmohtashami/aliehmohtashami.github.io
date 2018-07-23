@@ -1,0 +1,55 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$content-width: 1500px !default;
+
+@import "minima";
+
+.site-header{
+background-color:#16335e;
+&,
+    &:visited {
+        color: #FFFFFF;
+    }
+}
+
+.site-title{
+&,
+    &:visited {
+        color: #FFFFFF;
+    }
+}
+
+.page-link{
+&,
+    &:visited {
+        color: #FFFFFF;
+    }
+}
+
+.page-content{
+background-color:#dee7f4;
+}
+
+.site-footer{
+background-color:#c9cfd8;
+}
+
+.highlight {
+  table {
+    border: 0;
+    margin: 0;
+
+    th, td {
+      padding: 0;
+      border: 0;
+    }
+  }
+
+  pre, code {
+    border: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+}
