@@ -9,7 +9,7 @@ layout: default
 {% for sitepage in sitepages %}
 {% if sitepage.categories == 'home' %}
   <li >  	
-    <a href="{{ sitepage.url }}">{{ sitepage.title }}</a>    
+    <a class="post-link" href="{{ sitepage.url }}">{{ sitepage.title }}</a>    
   </li>
   {% endif %}
 {% endfor %}
