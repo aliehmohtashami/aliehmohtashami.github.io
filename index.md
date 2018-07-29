@@ -4,3 +4,13 @@
 
 layout: home
 ---
+<ul>
+{% assign sitepages = site.pages | sort: 'order' %}
+{% for sitepage in sitepages %}
+{% if sitepage.categories == 'home' %}
+  <li >  	
+    <a href="{{ sitepage.url }}">{{ sitepage.title }}</a>    
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
