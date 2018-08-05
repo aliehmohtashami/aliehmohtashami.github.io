@@ -14,6 +14,7 @@ folder: dm
 	{% assign key_value_array = key_value | split: "_" %}
 	<h2>{{key_value_array[1]}}</h2>
   	{% assign child_cat = page.folder | append: '\' | append: key_value_array[0] %}
+	<h2>{{key_value_array[1]}}</h2>
   	{% for post in site.categories[child_cat] %}
   		<li>
   			<span>
