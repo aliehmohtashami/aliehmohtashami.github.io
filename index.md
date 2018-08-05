@@ -8,9 +8,9 @@ layout: default
 {% assign sitepages = site.pages | sort: 'order' %}
 {% for sitepage in sitepages %}
 {% if sitepage.categories == 'home' %}
-  <li >  	
+  <h2 >  	
     <a class="post-link" href="{{ sitepage.url }}">{{ sitepage.title }}</a>    
-  </li>
+  </h2>
   {% endif %}
 {% endfor %}
 </ul>
