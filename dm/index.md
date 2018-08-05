@@ -19,6 +19,7 @@ folder: dm
   		<li>
   			<span>
   			{{ post.date | date_to_string }}
+				<h2>{{child_cat}}</h2>
   		</span> 
   		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   	</li>
