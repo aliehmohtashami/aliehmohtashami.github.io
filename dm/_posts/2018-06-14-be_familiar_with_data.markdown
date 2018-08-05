@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "be familiar with data"
+title:  "General Concepts"
 date:   2018-07-15 18:11:39 +0430
 categories: dm
 ---
