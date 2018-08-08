@@ -48,7 +48,7 @@ $$IQR = Q_{3} - Q_{1}$$
 - length of the box is the interquantile  
 - median, max and min will be three horizontal line (the last two called **whiskers**)  
 - when moderate number of observation, we can plot potential outliers individually, to do this, extend whiskers to the most extreme data occuring **1.5*IQR** of the quartile and plot remining observations individually  
-- Boxplot can be computed in **O(nlogn)** time
+- Boxplot can be computed in **O(nlogn)** time  
 ![boxplot_img](/assets/dm/boxplot.png){: .center-image }
 
 ---
