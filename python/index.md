@@ -8,7 +8,7 @@ folder: python
 <h1>{{ page.title }}</h1>
 <ul class="posts">
 
-{% assign chapKeys_chapValues = "chap0-Python Programming"  | split: ", "%}
+{% assign chapKeys_chapValues = "chap0-Python Programming 1, chap1-Python Programming 2"  | split: ", "%}
 
 {% for key_value in chapKeys_chapValues  %}
 	{% assign key_value_array = key_value | split: "-" %}
