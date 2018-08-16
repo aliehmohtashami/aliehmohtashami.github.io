@@ -9,7 +9,11 @@ categories: python\chap2
 - every thing is an object, primitive types, modules, functions and so on
 - object oriented programming use objects to create programs, these objects stores data and behaviors
 
-#### Defining Classes
+[Classes in Python](#cip)  
+[Overloading Operator in Python](#ooip)
+
+#### Classes in Python
+{: #cip}
 - needed `class` keyword, class name followed by a `colon`
 - every class in python have `initializer` method (it is a constructor and executes every time an object is created)
 - initializer method signature is defined by
@@ -39,7 +43,8 @@ p1.sayHello() #hello John
 print p1.age # 12
 print p1.__name #Student instance has no attribute __name
 ```
-#### Overloading Operator in python
+#### Overloading Operator in Python
+{: #ooip}
 - defining methods for operators
 - we can overload many operators using their relevant function
 
