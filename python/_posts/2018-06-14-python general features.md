@@ -75,7 +75,7 @@ print(x,t) #(15,10)
 
 ### useful functions
 - `int(string)` : convert string to int
-- `eval()`
+- `eval()`: convert string to int
 - `type(a)` : return datatype of a
 - `id(a))` : return memory address of a
 
