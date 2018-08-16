@@ -26,7 +26,8 @@ categories: python\chap2
   - it refers to the object which invoke the method
   - on creating a new object the self parameter in __init__ set to reference of the created object automatically
   - when a method is called, there is no need to pass anything to self parameter.
-  - To have `private` attribute or method we can use `__` before name of them
+  `private attributes or methods`
+  - use `__` before name of them
 
 ```python
 class Student:
