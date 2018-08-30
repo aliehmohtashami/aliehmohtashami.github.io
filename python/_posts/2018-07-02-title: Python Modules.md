@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Modules"
-date:  2018-07-29 21:11:39 +0430
+date:  2018-08-01 21:11:39 +0430
 categories: python\chap3
 ---
 [Python Math Module](#pmf)  
