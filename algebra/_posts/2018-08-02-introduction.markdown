@@ -32,7 +32,7 @@ $$ X^TA =x_{1}.R_{1}+x_{2}R_{2}+...+x_{n}R_{n} = x_{1}\begin{pmatrix}a_{11} & a_
 
 #### Elementary Row Operation
 - when solving an equation with form AX=b we can use some operation to convert AX=b to UX=c where U is elementary matrix
-- switch places of two rows
+- switch order of two rows
 - multiply a row to a constant number
 - add multiplication of a row to another row
 - $$E_{ij}$$ is a matrix which is gained after row operation on A for changing value of element (i,j) of matrix to zero
