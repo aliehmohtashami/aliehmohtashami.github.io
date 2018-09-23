@@ -1,26 +1,16 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
-title: Linear Algebra
-categories: home
-folder: algebra
 ---
-
-<h1>{{ page.title }}</h1>
-<ul class="posts">
-
-{% assign chapKeys_chapValues = "chap1-introduction" | split: ", "%}
-
-{% for key_value in chapKeys_chapValues  %}
-	{% assign key_value_array = key_value | split: "-" %}
-	<h2>{{key_value_array[1]}}</h2>
-  	{% assign child_cat = page.folder | append: '\' | append: key_value_array[0] %}
-  	{% for post in site.categories[child_cat] %}
-  	<li>
-  	<span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  	</li>
-  	{% endfor %}  
-  	<br>
+<ul>
+{% assign sitepages = site.pages | sort: 'order' %}
+{% for sitepage in sitepages %}
+{% if sitepage.categories == 'home' %}
+  <h2 >  	
+    <a class="post-link" href="{{ sitepage.url }}">{{ sitepage.title }}</a>    
+  </h2>
+  {% endif %}
 {% endfor %}
-
-
- 
+</ul>
