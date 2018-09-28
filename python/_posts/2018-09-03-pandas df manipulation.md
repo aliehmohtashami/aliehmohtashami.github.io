@@ -4,19 +4,19 @@ title: "Pandas Dataframe Manipulation"
 date:  2018-09-03 19:11:39 +0430
 categories: python\chap4
 ---
-[backaup data](#backup)   
-[get all column ](#get)   
+[Backaup data](#backup)   
+[Get all column ](#get)   
 [Rename a column header](#rename)   
 [Rearrange columns of data](#rearrangement)  
 [Working with indexes](#indices)  
 [Delete row and columns](#delete)  
 [Insert row and columns](#insert)  
 
-### backaup data
+### Backaup data
 {: #backup}
 - backup = data.copy()
 
-### get all column 
+### Get all column 
 {: #get}
 - data.columns.tolist()
 
